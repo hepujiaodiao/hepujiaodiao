@@ -1,0 +1,14 @@
+# 合浦角雕网站
+
+node_modules/
+.vscode/
+__pycache__/
+*.pyc
+.env
+memory/
+角雕材料/
+web/images_slide11/
+web/images_slide11_thumbs/
+analyze_*.py
+extract_*.py
+generate_*.py

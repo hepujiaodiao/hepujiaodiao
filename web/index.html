@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合浦角雕 - 非物质文化遗产</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>合浦角雕</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/introduction.html" class="nav-link">角雕介绍</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/inheritors.html" class="nav-link">传承代表人</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/process.html" class="nav-link">制作过程</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pages/works.html" class="nav-link">民间作品</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 轮播图 -->
+        <section class="hero-section">
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <img src="images/carousel1.jpg" alt="合浦角雕艺术展示">
+                        <div class="carousel-caption">
+                            <h2>传承千年工艺</h2>
+                            <p>合浦角雕，非物质文化遗产的瑰宝</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/carousel2.jpg" alt="角雕制作工艺">
+                        <div class="carousel-caption">
+                            <h2>精湛制作工艺</h2>
+                            <p>传统手工技艺，匠心独运</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="images/carousel3.jpg" alt="角雕作品展示">
+                        <div class="carousel-caption">
+                            <h2>精美艺术作品</h2>
+                            <p>每一件作品都是艺术的结晶</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" onclick="changeSlide(-1)">❮</button>
+                <button class="carousel-btn next" onclick="changeSlide(1)">❯</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 网站介绍 -->
+        <section class="intro-section">
+            <div class="container">
+                <h2 class="section-title">合浦角雕简介</h2>
+                <p class="section-text">
+                    角雕是以牛角、羊角等为材料进行雕刻的中国传统手工技艺，其中广西北海合浦的牛角雕以其精湛工艺和鲜明特色而闻名。该技艺充分利用牛角天然透亮的质感与渐变色泽，运用立体圆雕、镂空等多种技法，创作出以水族、花鸟等为主题的生动画卷。
+                </p>
+                <p class="section-text">
+                    2015年，“合浦角雕技艺”列入北海市第三批市级非物质文化遗产代表性项目名录；2016年，“合浦角雕技艺”列入第六批自治区级非物质文化遗产代表性项目名录；2021年被列入国家级非物质文化遗产名录。如今，艺人们在传承中不断创新，使这项古老技艺持续焕发光彩。
+                </p>
+                <div class="intro-cards">
+                    <div class="intro-card">
+                        <div class="card-icon">🏺</div>
+                        <h3>历史悠久</h3>
+                        <p>传承数百年，承载深厚文化底蕴</p>
+                    </div>
+                    <div class="intro-card">
+                        <div class="card-icon">🎨</div>
+                        <h3>工艺精湛</h3>
+                        <p>纯手工制作，技艺精湛独特</p>
+                    </div>
+                    <div class="intro-card">
+                        <div class="card-icon">🌟</div>
+                        <h3>艺术价值</h3>
+                        <p>具有很高的艺术和收藏价值</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 快速导航 -->
+        <section class="quick-nav-section">
+            <div class="container">
+                <h2 class="section-title">了解更多</h2>
+                <div class="quick-nav-grid">
+                    <a href="pages/introduction.html" class="quick-nav-item">
+                        <div class="quick-nav-icon">📖</div>
+                        <h3>角雕介绍</h3>
+                        <p>了解合浦角雕的历史渊源和文化内涵</p>
+                    </a>
+                    <a href="pages/inheritors.html" class="quick-nav-item">
+                        <div class="quick-nav-icon">👨‍🎨</div>
+                        <h3>传承代表人</h3>
+                        <p>认识角雕技艺的传承人和大师</p>
+                    </a>
+                    <a href="pages/process.html" class="quick-nav-item">
+                        <div class="quick-nav-icon">🔨</div>
+                        <h3>制作过程</h3>
+                        <p>探索角雕制作的完整工艺流程</p>
+                    </a>
+                    <a href="pages/works.html" class="quick-nav-item">
+                        <div class="quick-nav-icon">🖼️</div>
+                        <h3>民间作品</h3>
+                        <p>欣赏精美的角雕艺术作品</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>合浦角雕</h3>
+                    <p>传承千年工艺，弘扬传统文化</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 合浦角雕. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
