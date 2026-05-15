@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(\"D:/python/python.exe\" analyze_pptx.py)"
+    ]
+  }
+}
